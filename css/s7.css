@@ -1,0 +1,33 @@
+body {
+  background-color: azure;
+  color: darkslateblue;
+  margin: 5px;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header,
+footer {
+  text-align: center;
+  background-color: gainsboro;
+}
+h2,
+h3,
+h4 {
+  color: crimson;
+  text-decoration-line: underline;
+}
+p {
+  text-indent: 8ch;
+  text-align: justify;
+}
+p::first-letter {
+  font-size: 120%;
+  color: blueviolet;
+  text-decoration-line: underline;
+}
+p::first-line {
+  color: black;
+}
+section:hover {
+  background-color: antiquewhite;
+}
